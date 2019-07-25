@@ -1,0 +1,174 @@
+{
+  "restaurants": [
+    {
+      "location": "Baja California Fish Tacos",
+      "sampleitems": "Fish tacos!",
+      "notables": "The most expensive tacos on the menu are $3 and it's nearly walking distance, so no excuses if it's light out."
+    },
+    {
+      "location": "Lonzo's Peruvian",
+      "sampleitems": "Lomo Saltado, Ceviche",
+      "notables": "Most of the menu is under $15 and it's BYOB."
+    },
+    {
+      "location": "Madre",
+      "sampleitems": "Enchiladas Oaxaceñas",
+      "notables": "If we split the enchiladas and don't drink mezcal or only do takeout it's quite cheap."
+    },
+    {
+      "location": "Zafran Pot",
+      "sampleitems": "Biriyani, but also so many curries.",
+      "notables": "Everything is under $14."
+    },
+    {
+      "location": "Tender Greens",
+      "sampleitems": "The steak salad with kale is always good plus they have great specials.",
+      "notables": "Usually two salads are under $30 for takeout."
+    },
+    {
+      "location": "Mayura",
+      "sampleitems": "Fish curry and that eggplant dish that tastes even better next day. Plus so many other things we have not even tried.",
+      "notables": "Everything is under $14."
+    },
+    {
+      "location": "Tara's Himalayan",
+      "sampleitems": "Momo, Yak Chili, Curries",
+      "notables": "How has this not been a thing yet? Even if it's not good there are fish tacos on the way back. But it's probably good."
+    },
+    {
+      "location": "Mariscos Jalisco",
+      "sampleitems": "Tacos dorados, ceviche tostada",
+      "notables": "Sure it's a drive, but for a cheap and brilliant meal."
+    },
+    {
+      "location": "Tacos Leos",
+      "sampleitems": "al pastor",
+      "notables": "Cheap and Tasty"
+    },
+    {
+      "location": "Chengdu Taste",
+      "sampleitems": "XLB, Cumin Lamb, Fish in Chili Oil, Spicy Wontons",
+      "notables": "So worth the headache of a drive every time and a cheap meal at that."
+    },
+    {
+      "location": "Tsujita, Tsujita Annex, Killer Noodle",
+      "sampleitems": "Bomb tsukemen",
+      "notables": "For around the same price you can get insanely good noodles and pick based on which is less crowded or what you need most."
+    },
+    {
+      "location": "Marugame Udon",
+      "sampleitems": "Udon",
+      "notables": "Sometimes you need an app to tell remind you not to get Tsujita every time."
+    },
+    {
+      "location": "Jackson Market",
+      "sampleitems": "Wraps and sandwiches",
+      "notables": "A simple, healthy solution for lunch or dinner"
+    },
+    {
+      "location": "Quiadaiyn Restaurant",
+      "sampleitems": "Tlayuda, Mole Negro Con Pollo",
+      "notables": "Oaxacan food in Mar Vista"
+    },
+    {
+      "location": "Guelaguetza",
+      "sampleitems": "Oaxacan delights",
+      "notables": "This can go from affordable to not really fast with mezcal but it's one of the more worth it choices"
+    },
+    {
+      "location": "Chargha House",
+      "sampleitems": "Charga Chicken, Chicken Biryani",
+      "notables": "Halal chicken place on Sepulveda"
+    },
+    {
+      "location": "Dan Sung Sa",
+      "sampleitems": "Korean drinking food",
+      "notables": "Every time you go here it's always way cheaper than you thought it was going to be"
+    },
+    {
+      "location": "Sunnin Lebanse",
+      "sampleitems": "Chicken shawarma, kebabs",
+      "notables": "Nearby and often makes for excellent leftovers"
+    },
+    {
+      "location": "Pho Hoa Vietnamese Restaurant",
+      "sampleitems": "Pho",
+      "notables": "Well reviewed affordable pho restaurant in Chinatown near cute wine bar"
+    },
+    {
+      "location": "Teddy's Red Tacos",
+      "sampleitems": "Birria tacos, etc",
+      "notables": "It's so close just do it"
+    },
+    {
+      "location": "Mitsuwa Marketplace",
+      "sampleitems": "Ramen and other great Japanese favorites",
+      "notables": "If its too hot for ramen pick up some hamachi collar and eggplants for a simple, delicious dinner at home."
+    },
+    {
+      "location": "In N Out",
+      "sampleitems": "That double double life",
+      "notables": "You know you want it"
+    },
+    {
+      "location": "HomeState",
+      "sampleitems": "Texmex Tacos",
+      "notables": "Cheap, easy, delicious: no brainer"
+    },
+    {
+      "location": "Gjusta",
+      "sampleitems": "You can get their cafe items or bring some deli items home for a romantic meal",
+      "notables": "Don't go if it's during a stupid time or the chaos will make you want to punch somebody. Honestly it'd still be worth it though."
+    },
+    {
+      "location": "Jasmine Market and Deli",
+      "sampleitems": "Literally one of the only places to get Burmese food",
+      "notables": "Closed on Mondays"
+    },
+    {
+      "location": "Simpang",
+      "sampleitems": "Malaysian Favorites",
+      "notables": "Filling, cheap, delicious"
+    },
+    {
+      "location": "Golden Deli Restaurant",
+      "sampleitems": "Vietnamese food",
+      "notables": "Closed Wednesdays, can be anywhere between 25 minutes and 1h30 to get to"
+    },
+    {
+      "location": "Greenblatt's",
+      "sampleitems": "The best deli sandwiches",
+      "notables": "Toasted reuben and great wine selection"
+    },
+    {
+      "location": "BCD Tofu House",
+      "sampleitems": "Galbi, Bulgogi, Tofu",
+      "notables": "Open 24 Hours"
+    },
+    {
+      "location": "Hasiba",
+      "sampleitems": "Falafel, hummus, pita wraps",
+      "notables": "Cheap and close, closed Saturdays"
+    },
+    {
+      "location": "Coni'Seafood",
+      "sampleitems": "Camarones pimienta, pescado zarandeado, smoked marlin tacos",
+      "notables": "Definitely not the cheapest option but close and healthy. Closed Tuesdays"
+    },
+    {
+      "location": "LA Rose Cafe",
+      "sampleitems": "Filipino food",
+      "notables": "Not to be confused with The Rose in Venice, this East Hollywood spot is known for authenticity. Closes at 8:30 every night except Sundays (4:30) "
+    },
+    {
+      "location": "Toe Bang",
+      "sampleitems": "Korean bar food",
+      "notables": "Open every day from 2-2"
+    },
+    {
+      "location": "El Chato Taco Truck",
+      "sampleitems": "al pastor, carne asada, fresh tortillas",
+      "notables": "Closed Sundays and Mondays"
+    }
+  ]
+}
