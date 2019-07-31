@@ -3,7 +3,15 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
-
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`,
+        typeName: ({ node, object, isArray }) => object.level,
+      },
+    },
+  ],
 }
