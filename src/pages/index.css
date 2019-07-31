@@ -1,5 +1,7 @@
 .Generator {
   text-align: center;
+  margin: 200px 100px 200px 100px;
+  display: block;
  }
 
  .restlocation {
@@ -8,6 +10,7 @@
 
  .restinfo {
    font-size: 20px;
-   display: block;
+   margin-left: 0;
+   margin-right: 0;
  }
 

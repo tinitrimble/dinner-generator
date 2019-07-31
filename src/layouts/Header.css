@@ -1,0 +1,13 @@
+.global {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  border-bottom: solid 1px black;
+  font-family: Verdana;
+}
+
+.page-name {
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+}
