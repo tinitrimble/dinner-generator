@@ -10,7 +10,6 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `./src/data/`,
-        typeName: ({ node, object, isArray }) => object.level,
       },
     },
   ],
