@@ -1,11 +1,5 @@
 .Generator {
   text-align: center;
-  vertical-align: middle;
- }
-
- ul {
-   text-decoration: none;
-   list-style: none;
  }
 
  .restlocation {
@@ -14,5 +8,6 @@
 
  .restinfo {
    font-size: 20px;
+   display: block;
  }
 

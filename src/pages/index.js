@@ -8,22 +8,20 @@ const Dinnergenerator = ({ data }) => {
   const randomrest = restaurants[Math.floor(Math.random()*allrests)];
   return (
     <div className="Generator">
-        <ul>
-          <li key={randomrest.location}
-              className="restlocation">
-            {randomrest.location} 
-          </li>
-          <ul className="restinfo">
-            <li key={randomrest.sampleitems}
-                className="restitems">
-              {randomrest.sampleitems} 
-            </li>
-            <li key={randomrest.notables}
-                className="restnotes">
-              {randomrest.notables} 
-            </li>
-          </ul>
-        </ul>
+      <div key={randomrest.location}
+           className="restlocation">
+        {randomrest.location} 
+      </div>
+      <div className="restinfo">
+        <div key={randomrest.sampleitems}
+             className="restitems">
+          {randomrest.sampleitems} 
+        </div>
+        <div key={randomrest.notables}
+             className="restnotes">
+          {randomrest.notables} 
+        </div>
+      </div>
     </div>
   )
 }
