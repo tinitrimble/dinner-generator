@@ -3,17 +3,17 @@ import { Link } from "gatsby"
 import styled from 'styled-components'
 
 const Footer = () => (
-  <Footer.Container>
-    <Link to="/" className="page-name">
-      <div className="tryagain">
+    <Footer.Link to="/" className="page-name">
         I don't want this. Try again.
-      </div>
-    </Link>
-  </Footer.Container>
+    </Footer.Link>
 )
 
-Footer.Container = styled.footer`
-  background-color: pink;
+Footer.Link = styled(Link)`
+  background-color: #81a3a6;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #edf9fa;
 `;
 
 export default Footer;
