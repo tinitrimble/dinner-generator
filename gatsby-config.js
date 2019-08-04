@@ -4,6 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 module.exports = {
+  pathPrefix: "/dinner-generator",
   plugins: [
     `gatsby-transformer-json`,
     {
