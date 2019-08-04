@@ -4,7 +4,11 @@ import { Link } from "gatsby";
 
 const Footer = () => (
   <footer className="footer">
-    <p>Created in Sunny Los Angeles, 2019</p>
+    <Link to="/" className="page-name">
+      <div className="tryagain">
+        I don't want this. Try again.
+      </div>
+    </Link>
   </footer>
 )
 

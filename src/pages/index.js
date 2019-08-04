@@ -12,17 +12,14 @@ const Dinnergenerator = ({ data }) => {
     <div>
       <Header />
       <div className="Generator">
-        <div key={randomrest.location}
-             className="restlocation">
+        <div className="restlocation">
           {randomrest.location} 
         </div>
         <div className="restinfo">
-          <div key={randomrest.sampleitems}
-               className="restitems">
+          <div className="restitems">
             {randomrest.sampleitems} 
           </div>
-          <div key={randomrest.notables}
-               className="restnotes">
+          <div className="restnotes">
             {randomrest.notables} 
           </div>
         </div>
