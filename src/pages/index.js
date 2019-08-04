@@ -1,6 +1,7 @@
 import React from "react"
-import './index.css';
 import { graphql } from "gatsby"
+import Restaurantcard from '../templates/RestaurantCard.js' 
+import './index.css';
 import Header from '../layouts/Header.js';
 import Footer from '../layouts/Footer.js';
 
@@ -11,19 +12,10 @@ const Dinnergenerator = ({ data }) => {
   return (
     <div>
       <Header />
-      <div className="Generator">
-        <div className="restlocation">
-          {randomrest.location} 
-        </div>
-        <div className="restinfo">
-          <div className="restitems">
-            {randomrest.sampleitems} 
-          </div>
-          <div className="restnotes">
-            {randomrest.notables} 
-          </div>
-        </div>
-      </div>
+      <Restaurantcard 
+        location={randomrest.location}
+        sampleItems={randomrest.sampleitems}
+        notables={randomrest.notables} />
       <Footer />
     </div>
   )
@@ -45,4 +37,4 @@ export const query = graphql`
  }
 `
 
-export default Dinnergenerator 
+export default Dinnergenerator
