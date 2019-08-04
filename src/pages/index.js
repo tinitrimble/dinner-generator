@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Restaurantcard from '../templates/RestaurantCard.js' 
-import './index.css';
 import Header from '../layouts/Header.js';
 import Footer from '../layouts/Footer.js';
 

@@ -1,17 +1,22 @@
 import React from "react"
 import PropTypes from "prop-types"
+import styled from 'styled-components'
 
 const RestaurantCard = ({ location, sampleItems, notables }) => {
   return (
-    <div className="Generator">
+    <RestaurantCard.Container>
       <div className="restlocation">{location}</div>
       <div className="restinfo">
         <div className="restitems">{sampleItems}</div>
         <div className="restnotes">{notables}</div>
       </div>
-    </div>
+    </RestaurantCard.Container>
   )
 }
+
+RestaurantCard.Container = styled.div`
+  background-color: purple;
+`;
 
 RestaurantCard.propTypes = {
   location: PropTypes.string.isRequired,

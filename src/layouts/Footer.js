@@ -1,15 +1,19 @@
 import React from 'react'
-import footer from './Footer.css';
-import { Link } from "gatsby";
+import { Link } from "gatsby"
+import styled from 'styled-components'
 
 const Footer = () => (
-  <footer className="footer">
+  <Footer.Container>
     <Link to="/" className="page-name">
       <div className="tryagain">
         I don't want this. Try again.
       </div>
     </Link>
-  </footer>
+  </Footer.Container>
 )
+
+Footer.Container = styled.footer`
+  background-color: pink;
+`;
 
 export default Footer;

@@ -1,11 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link';
-import './Header.css';
+import styled from 'styled-components';
 
 const Header = () => (
-  <header className="global" ui-view="header" autoscroll="true">
+  <Header.Container>
     <Link to="/" className="page-name">Where Should We Eat?</Link>
-  </header>
+  </Header.Container>
 )
+
+Header.Container = styled.header`
+  background-color: red;
+`;
 
 export default Header;
