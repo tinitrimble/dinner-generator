@@ -6,13 +6,13 @@ import styled from 'styled-components'
 const RestaurantCard = ({ location, sampleItems, notables, ylink }) => {
   return (
     <RestaurantCard.Container>
-      <RestaurantCard.Link to={ylink} />
+      <RestaurantCard.Link to={ylink}>
         <RestaurantCard.Location>{location}</RestaurantCard.Location>
         <RestaurantCard.Restinfo>
           <RestaurantCard.Restitems>What to eat: {sampleItems}</RestaurantCard.Restitems>
           <RestaurantCard.Restnotes>Notes: {notables}</RestaurantCard.Restnotes>
         </RestaurantCard.Restinfo>
-      </RestaurantCard.Card>
+      </RestaurantCard.Link>
     </RestaurantCard.Container>
   )
 }
