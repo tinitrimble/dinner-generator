@@ -1,11 +1,12 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 
-const RestaurantCard = ({ location, sampleItems, notables }) => {
+const RestaurantCard = ({ location, sampleItems, notables, ylink }) => {
   return (
     <RestaurantCard.Container>
-      <RestaurantCard.Card>
+      <RestaurantCard.Link to={ylink} />
         <RestaurantCard.Location>{location}</RestaurantCard.Location>
         <RestaurantCard.Restinfo>
           <RestaurantCard.Restitems>What to eat: {sampleItems}</RestaurantCard.Restitems>
@@ -23,9 +24,10 @@ RestaurantCard.Container = styled.div`
   justify-content: center;
 `;
 
-RestaurantCard.Card = styled.div`
+RestaurantCard.Link = styled(Link)`
   max-width: 400px;
   width: 100%;
+  text-decoration: none;
 `;
 
 RestaurantCard.Location = styled.div`
@@ -52,6 +54,7 @@ RestaurantCard.propTypes = {
   location: PropTypes.string.isRequired,
   sampleItems: PropTypes.string.isRequired,
   notables: PropTypes.string.isRequired,
+  ylink: PropTypes.string.isRequired
 }
 
 export default RestaurantCard

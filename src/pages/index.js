@@ -3,6 +3,8 @@ import { graphql } from "gatsby"
 import Restaurantcard from '../templates/RestaurantCard.js' 
 import Header from '../layouts/Header.js'
 import Footer from '../layouts/Footer.js'
+import { Helmet } from 'react-helmet'
+import logo from '../assets/fork3.svg' 
 import styled from 'styled-components'
 
 const DinnerGenerator = ({ data }) => {
@@ -11,11 +13,17 @@ const DinnerGenerator = ({ data }) => {
   const randomrest = restaurants[Math.floor(Math.random()*allrests)];
   return (
     <DinnerGenerator.Container>
+      <Helmet 
+        title="Where Should We Eat?"
+        link={[
+          { rel: 'shortcut icon', type: 'image/svg', href: `${logo}` }              ]}
+      />
       <Header />
       <Restaurantcard 
         location={randomrest.location}
         sampleItems={randomrest.sampleitems}
-        notables={randomrest.notables} />
+        notables={randomrest.notables} 
+        ylink={randomrest.ylink} />
       <Footer />
     </DinnerGenerator.Container>
   )
@@ -41,6 +49,7 @@ export const query = graphql`
            location
            sampleitems
            notables
+           ylink
          }
        }
      }
