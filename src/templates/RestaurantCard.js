@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 
-const RestaurantCard = ({ location, sampleItems, notables, ylink }) => {
+const RestaurantCard = ({ location, sampleItems, notables, yelp }) => {
   return (
     <RestaurantCard.Container>
-      <RestaurantCard.Link to={ylink}>
+      <RestaurantCard.Link to={yelp}>
         <RestaurantCard.Location>{location}</RestaurantCard.Location>
         <RestaurantCard.Restinfo>
           <RestaurantCard.Restitems>What to eat: {sampleItems}</RestaurantCard.Restitems>
@@ -28,6 +28,7 @@ RestaurantCard.Link = styled(Link)`
   max-width: 400px;
   width: 100%;
   text-decoration: none;
+  color: black;
 `;
 
 RestaurantCard.Location = styled.div`
@@ -54,7 +55,7 @@ RestaurantCard.propTypes = {
   location: PropTypes.string.isRequired,
   sampleItems: PropTypes.string.isRequired,
   notables: PropTypes.string.isRequired,
-  ylink: PropTypes.string.isRequired
+  yelp: PropTypes.string.isRequired,
 }
 
 export default RestaurantCard

@@ -23,7 +23,7 @@ const DinnerGenerator = ({ data }) => {
         location={randomrest.location}
         sampleItems={randomrest.sampleitems}
         notables={randomrest.notables} 
-        ylink={randomrest.ylink} />
+        yelp={randomrest.yelp} />
       <Footer />
     </DinnerGenerator.Container>
   )
@@ -49,7 +49,7 @@ export const query = graphql`
            location
            sampleitems
            notables
-           ylink
+           yelp
          }
        }
      }
