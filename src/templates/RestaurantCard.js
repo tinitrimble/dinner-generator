@@ -8,8 +8,16 @@ const RestaurantCard = ({ location, sampleItems, notables, yelp }) => {
       <RestaurantCard.Card href={yelp} target="_blank">
         <RestaurantCard.Location>{location}</RestaurantCard.Location>
         <RestaurantCard.Restinfo>
-          <RestaurantCard.Restitems>What to eat: {sampleItems}</RestaurantCard.Restitems>
-          <RestaurantCard.Restnotes>Notes: {notables}</RestaurantCard.Restnotes>
+          <RestaurantCard.Restitems>What to eat:  
+            <RestaurantCard.Data>
+            {sampleItems}
+            </RestaurantCard.Data>
+          </RestaurantCard.Restitems>
+          <RestaurantCard.Restnotes>Notes:   
+            <RestaurantCard.Data>
+              {notables}
+            </RestaurantCard.Data>
+          </RestaurantCard.Restnotes>
         </RestaurantCard.Restinfo>
       </RestaurantCard.Card>
     </RestaurantCard.Container>
@@ -35,19 +43,26 @@ RestaurantCard.Location = styled.div`
 `;
 
 RestaurantCard.Restinfo = styled.div`
-  padding: 25px;
+  padding: 18px;
   display: flex;
   flex-direction: column;
   justify-content: left;
-  color: #698587;
+  color: #63a9b0;
+  font-family: sans-serif;
+  font-weight: 500;
+`;
+
+RestaurantCard.Data = styled.span`
+  font-weight: 200;
+  margin-left: 4px;
 `;
 
 RestaurantCard.Restitems = styled.div`
-  padding: 10px;
+  padding: 9px;
 `;
 
 RestaurantCard.Restnotes = styled.div`
-  padding: 10px;
+  padding: 9px;
 `;
 
 RestaurantCard.propTypes = {

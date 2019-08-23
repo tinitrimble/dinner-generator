@@ -9,7 +9,7 @@ const Footer = () => (
 )
 
 Footer.Link = styled(Link)`
-  background-color: #81a3a6;
+  background-color: #63a9b0;
   padding: 20px;
   text-decoration: none;
   font-size: 20px;
