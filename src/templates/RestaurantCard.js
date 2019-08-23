@@ -1,18 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 const RestaurantCard = ({ location, sampleItems, notables, yelp }) => {
   return (
     <RestaurantCard.Container>
-      <RestaurantCard.Link to={yelp}>
+      <RestaurantCard.Card href={yelp} target="_blank">
         <RestaurantCard.Location>{location}</RestaurantCard.Location>
         <RestaurantCard.Restinfo>
           <RestaurantCard.Restitems>What to eat: {sampleItems}</RestaurantCard.Restitems>
           <RestaurantCard.Restnotes>Notes: {notables}</RestaurantCard.Restnotes>
         </RestaurantCard.Restinfo>
-      </RestaurantCard.Link>
+      </RestaurantCard.Card>
     </RestaurantCard.Container>
   )
 }
@@ -24,7 +23,7 @@ RestaurantCard.Container = styled.div`
   justify-content: center;
 `;
 
-RestaurantCard.Link = styled(Link)`
+RestaurantCard.Card = styled.a`
   max-width: 400px;
   width: 100%;
   text-decoration: none;
